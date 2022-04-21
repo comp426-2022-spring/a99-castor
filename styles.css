@@ -18,12 +18,10 @@ td {
 header {
     background-color: green;
     color: lightgrey;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 50pt;
 }
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: large;
+    font-size: xx-large;
 }
 h2 {
   color: #4287f5;
