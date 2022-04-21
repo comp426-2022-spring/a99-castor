@@ -15,9 +15,12 @@ td {
   border: 1px solid black;
   padding: 5px;
 }
-header {
-    background-color: green;
+.header {
+    background-color: rgb(114, 150, 114);
     color: lightgrey;
+    font-size: 60pt;
+    text-align: left;
+    padding: 20px;
 }
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
