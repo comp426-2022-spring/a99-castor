@@ -1,0 +1,25 @@
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+th {
+  background-color: #4287f5;
+  color: white;
+}
+th,
+td {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+}
+h2 {
+  color: #4287f5;
+  
+}
