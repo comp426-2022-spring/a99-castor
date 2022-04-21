@@ -1,9 +1,10 @@
 .header {
     background: rgb(114, 150, 114);
     color: lightgrey;
-    font-size: 60pt;
+    font-size: 40pt;
     text-align: left;
-    padding: 20px;
+    padding: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 
