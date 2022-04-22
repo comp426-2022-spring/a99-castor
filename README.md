@@ -63,3 +63,13 @@ All the rest of the assignment instructions are available at: https://comp426.jo
 Good skill and be creative!
 
 Test For Submission
+
+## Starting the README file for our project here
+
+1. To Do
+2. To Do
+3. Created docs directory
+4. Done
+5. To Do, where is the project tab?
+6. Done
+7. To Do
