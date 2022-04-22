@@ -66,10 +66,13 @@ Test For Submission
 
 ## Starting the README file for our project here
 
-1. To Do
-2. To Do
-3. Created docs directory
-4. Done
-5. To Do, where is the project tab?
-6. Done
-7. To Do
+1. To Do - Choose our License
+2. In Progress - Add as we go
+3. Done - Created Docs
+4. Done - All have access
+5. Done - Projects tab created
+6. Done - Seperate md file under /doc/
+7. To Do - At end
+
+## Team Roles 
+Refer to "teamroles.md" under /docs/
