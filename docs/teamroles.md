@@ -12,7 +12,7 @@ In charge of back-end specifications:
 2. Making sure the API can interact and integrate with other API as needed.
 3. Creation and interactions with the database of users.
 
-## Database Lead - Jason Manning
+## Database Lead - Zheyu Huang
 
 In charge of database specifications:
 1. Manage database of users.
