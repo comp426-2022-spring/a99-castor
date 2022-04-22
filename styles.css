@@ -1,12 +1,20 @@
 .header {
-    background: rgb(114, 150, 114);
-    color: lightgrey;
+    background: rgb(69,152,101);
+    background: lightgrey;
+    color: rgb(69,120,152);
     font-size: 40pt;
     text-align: left;
-    padding: 15px;
+    padding: 5px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+.subheader {
+    font-size: 20pt;
+    opacity: 75%;
+}
 
+.weekCases {
+    background: lightgrey;
+}
 
 table {
   border-collapse: separate;
@@ -14,7 +22,7 @@ table {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 th {
-  background-color: #4287f5;
+  background-color: rgb(69,99,152);
   color: white;
 }
 th,
