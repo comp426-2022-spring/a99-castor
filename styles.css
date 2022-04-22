@@ -1,6 +1,6 @@
 .header {
-    background: rgb(114, 150, 114);
-    color: lightgrey;
+    background: rgb(69,152,101);
+    color: rgb(17,38,25);
     font-size: 40pt;
     text-align: left;
     padding: 15px;
@@ -14,7 +14,7 @@ table {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 th {
-  background-color: #4287f5;
+  background-color: rgb(69,99,152);
   color: white;
 }
 th,
