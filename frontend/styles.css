@@ -23,8 +23,7 @@ body {
 
 /* log in word positioning */
 .loginbar a {
-  float: none;
-  display: block;
+  float: right;
   color: black;
   font-size: 20px;
   font-weight: bold;
@@ -57,7 +56,7 @@ body {
 /* weekly graph section */
 .weeklygraph {
     float: left;
-    width: 47%;
+    width: 48%;
     height: 50%;
     padding: 10%;
     border-radius: 30px;
@@ -192,3 +191,40 @@ body {
   font-size: 20px;
   color: black;
 }
+
+/*Login Page*/
+
+input[type=unametext], input[type=pswtext], input[type=nametext], input[type=emailtext] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(109, 180, 190);;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: rgb(69,141,152);
+  color: white;
+}
+
+.login, .signup {
+  padding: 16px;
+}
+
+.noaccount {
+  padding: 16px;
+}
+
+/*Sign up Page*/
+
+
