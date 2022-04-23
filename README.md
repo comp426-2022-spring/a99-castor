@@ -28,15 +28,3 @@ Other steps that you will need to take after your team has accepted the assignme
 
 
 
-## Starting the README file for our project here
-
-1. To Do - Choose our License
-2. In Progress - Add as we go
-3. Done - Created Docs
-4. Done - All have access
-5. Done - Projects tab created
-6. Done - Seperate md file under /doc/
-7. To Do - At end
-
-## Team Roles 
-Refer to "teamroles.md" under /docs/
