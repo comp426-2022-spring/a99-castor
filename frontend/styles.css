@@ -26,6 +26,7 @@ body {
   display: block;
   color: black;
   font-size: 20px;
+  font-weight: bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -84,16 +85,32 @@ body {
 
 /* external links section */
 .externallinks {
-    float: left;
-    width: 97%;
-    height: 25%;
-    padding: 2%;
-    border-radius: 30px;
-    margin: 20px;
+  float: left;
+  width: 99%;
+  height: 25%
+}
 
-    color: black;
-    background-color: rgb(117, 148, 189);
-    text-align: center;
+.externallinks a {
+  float: none;
+  display: block;
+  
+  padding: 1%;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 30px;
+  color: black;
+  background-color: rgb(117, 148, 189);
+}
+
+/* changes bar color when hover mouse */
+.externallinks a:hover {
+  background-color: rgb(69,141,152);
+  color: white;
 }
 
 /* adjusting the columns based on screen size; try adjusting window to see this work, probably need to implement better way for mobile so it's less awkward */
