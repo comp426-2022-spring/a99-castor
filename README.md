@@ -8,9 +8,9 @@ The website can be accessed [here](https://comp426-2022-spring.github.io/a99-cas
 
 ## Documentation
 
+- [Planning Notes](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/planningnotes.md)
 - [Team Roles](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/teamroles.md)
 - [Castor Project Board](https://github.com/orgs/comp426-2022-spring/projects/28)
-- [Planning Notes](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/planningnotes.md)
 
 ## Notes here, delete everything below before submitting final project
 
