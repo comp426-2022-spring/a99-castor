@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/*MAIN PAGE*/
 /* Style the header */
 .header {
   background-color: rgb(69,99,152);
@@ -129,4 +130,61 @@ body {
 }
 
 
+/*RESOURCE PAGE*/
 
+.resourceheader {
+  background-color: rgb(69,99,152);
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.resource {
+  float: left;
+  color: black;
+
+  background-color: rgb(117, 148, 189);
+
+  padding: 1%;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.resource p {
+  font-size: 20px;
+}
+
+.resource a {
+  font-size: 20px;
+}
+
+
+.resource1 {
+  float: left;
+  color: black;
+  background-color: rgb(69,141,152);
+
+  padding: 1%;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.resource1 p {
+  font-size: 20px;
+}
+
+.resource1 a {
+  font-size: 20px;
+}
+
+/*Button to go back to home page, can reuse on other pages too*/
+
+.goback {
+  text-align: center;
+}
+
+.goback a {
+  font-size: 20px;
+  color: black;
+}
