@@ -149,6 +149,7 @@ body {
   padding: 1%;
   margin: 10px;
   border-radius: 30px;
+  width: 99%;
 }
 
 .resource p {
@@ -169,6 +170,7 @@ body {
   padding: 1%;
   margin: 10px;
   border-radius: 30px;
+  width: 99%;
 }
 
 .resource1 p {
@@ -182,6 +184,7 @@ body {
 /*Button to go back to home page, can reuse on other pages too*/
 
 .goback {
+  float: none;
   text-align: center;
 }
 
