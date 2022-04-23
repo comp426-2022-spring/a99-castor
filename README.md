@@ -1,18 +1,17 @@
-# a99 Final Project
+# a99 Final Project - UNC Covid Dashboard
 
-## UPDATE
+## COVID UNC
 
-You don't need to accept this assignment since you are already assigned to teams. So, there is not assignment invite link for a99.
+COVID UNC is an interactive web application that allows users to view data relating to Covid trends at the University of North Carolina - Chapel Hil. The website includes weekly graphs, links to external sources, and data such as daily covid cases and vaccination rates on campus. Users will be able to interact with the website through buttons which change the data being shown (daily, weekly, and yearly trends). 
 
-## Summary
+The website can be accessed [here](https://comp426-2022-spring.github.io/a99-castor/index.html)
 
-COMP426 final project template repository.
-All your code and documentation goes here.
-Change this text to be a brief description of your final project.
-Put the name of your project in the header above.
-You will change everything below to be the main technical documentation, as outlined below.
+## Documentation
 
-## First steps
+- [Team Roles](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/teamroles.md)
+- [Castor Project Board](https://github.com/orgs/comp426-2022-spring/projects/28)
+
+## Notes here, delete everything below before submitting final project
 
 Other steps that you will need to take after your team has accepted the assignment:
 
@@ -26,43 +25,7 @@ Other steps that you will need to take after your team has accepted the assignme
 8. Use **Pull requests** to propose changes and incorporate them into your code from various team members.
 9. Use **Issues** to identify and track bugs and also to communicate about various aspects of the project.
 
-## Team mangement
 
-Plan to meet with your team ASAP.
-Talk through identifying roles within your team.
-
-Try to figure out what each of you are good at/enjoy doing and try to work out roles that incorporate that.
-
-Some basic roles you will want to consider:
-
-1. A review manager - someone to review pull requests and merge or reject them and manage the related discussions
-2. A plan manager - someone to keep an eye on the overall plan and keep the project tab/to-do list up to date
-3. A documentation manager - someone to keep the documentation in order and identify what is missing and needs to be documented
-4. A release manager - someone to manage the packaging and release process for your prototype package
-5. A project manager - someone keeping track of all the moving parts and make sure that everything that needs to happen is happening.
-6. Roles for team members to take charge or different parts of the project. Possible roles:
-   1. Front end lead
-   2. Back end lead
-   3. Database lead
-   4. Design lead
-   5. Etc.
-
-You will notice that there are more roles than people in your group.
-That is because you will all be doing a hybrid job of managing a thing while working on other things.
-
-## Check in with instructional staff
-
-Schedule a few times throughout the rest of the semester for your team to check-in with your assigned instructional staff member during their scheduled office hours.
-
-## Assignment instructions
-
-And that is about all you need to get started.
-
-All the rest of the assignment instructions are available at: https://comp426.johndmart.in/a/99
-
-Good skill and be creative!
-
-Test For Submission
 
 ## Starting the README file for our project here
 
