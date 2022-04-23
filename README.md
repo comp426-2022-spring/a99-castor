@@ -4,7 +4,7 @@
 
 COVID UNC is an interactive web application that allows users to view data relating to Covid trends at the University of North Carolina - Chapel Hil. The website includes weekly graphs, links to external sources, and data such as daily covid cases and vaccination rates on campus. Users will be able to interact with the website through buttons which change the data being shown (daily, weekly, and yearly trends). 
 
-The website can be accessed [here](https://comp426-2022-spring.github.io/a99-castor/index.html)
+The website can be accessed [here](https://comp426-2022-spring.github.io/a99-castor/frontend/index.html)
 
 ## Documentation
 
