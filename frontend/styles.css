@@ -144,7 +144,7 @@ body {
   float: left;
   color: black;
 
-  background-color: rgb(117, 148, 189);
+  background-color: rgb(109, 180, 190);
 
   padding: 1%;
   margin: 10px;
@@ -163,7 +163,8 @@ body {
 .resource1 {
   float: left;
   color: black;
-  background-color: rgb(69,141,152);
+
+  background-color: rgb(135, 160, 194);
 
   padding: 1%;
   margin: 10px;
