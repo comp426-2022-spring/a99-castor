@@ -93,4 +93,27 @@ getInformation = async (e) => {
     document.getElementById("totalCases").innerHTML = totalCases
     document.getElementById("totalVac").innerHTML = totalVaccinated
     document.getElementById("totalDeaths").innerHTML = totalDeaths
+
+
+    //test stuff for time chart
+    const masterDate = "2022-04-24";
+    var oldDate = masterDate;
+    //todo fix this
+    var currDate = filteredInformation[1724].lastUpdatedDate;
+
+    newCaseArr = [];
+    newCaseArr.length = 5;
+
+    if (oldDate != currDate) {
+      oldDate = currDate;
+      newCaseArr = filteredInformation[1724].actuals.newCases;
+      for (let i = 0; i < 4; i++) {
+        newCaseArr[4-i] = newCaseArr[4-i-1];
+      }
+    }
+    //the idea is that today's new cases is newCaseArr[0]
+    //yesterday's new cases is newCaseArr[1]
+    //the idea of the shift is
+    // [14, 53, 77, 9] becomes [53, 77, 9, today's cases]
+    //end stuff for time chart
 }
