@@ -33,12 +33,55 @@ getInformation = async (e) => {
     let totalDeaths = filteredInformation[1724].actuals.deaths;
     let lastUpdateDate = filteredInformation[1724].lastUpdatedDate;
 
-    //5 variables for the Bar Chart 
+    //5 variables for the Bar Chart from .03 to 1.43
     let bedsWithCovidPatientsRatio = filteredInformation[1724].metrics.bedsWithCovidPatientsRatio; 
     let ICUCapacityRatio = filteredInformation[1724].metrics.icuCapacityRatio; 
     let infectionRate = filteredInformation[1724].metrics.infectionRate; 
     let testPositiveRatio = filteredInformation[1724].metrics.testPositivityRatio; 
     let vacToPopRatio = totalVaccinated / totalPopulation; 
+
+     //CHART
+     new Chart(document.getElementById("bar-chart"), {
+        type: 'bar',
+        data: {
+          labels: ["covid beds / all beds", "ICU Capacity", "Infection Rate", "Positivity Rate", "(maybe leave out) vactopop"],
+          datasets: [
+            {
+              label: "todo ratios",
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+              data: [bedsWithCovidPatientsRatio,ICUCapacityRatio,infectionRate,testPositiveRatio,vacToPopRatio]
+            }
+          ]
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: '(tonamebetter) misc. ratios'
+          }
+        }
+    });
+    //END CHART
+    //totalVaccinated / totalPopulation;
+    var theVaccinated = totalVaccinated / totalPopulation;
+    var theUnvaccinated = 1 - theVaccinated;
+    new Chart(document.getElementById("pie-chart"), {
+        type: 'pie',
+        data: {
+          labels: ["Total Vaccinated", "Total Unvaccinated"],
+          datasets: [{
+            label: "todo 1",
+            backgroundColor: ["#3e95cd", "#8e5ea2"],
+            data: [theVaccinated,theUnvaccinated]
+          }]
+        },
+        options: {
+          title: {
+            display: true,
+            text: 'todo 2'
+          }
+        }
+    });
 
 
     console.log(totalCases);
