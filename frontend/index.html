@@ -30,10 +30,17 @@
   <a href="https://comp426-2022-spring.github.io/a99-castor/frontend/signup.html">Sign Up</a>
 </div>
 <!-- this is the chart from the main.js -->
-<div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-  <canvas id="bar-chart" width="500" height="220"></canvas>
+
+<div class = "section-chart">
+  <div class = "barChart">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <canvas id="bar-chart" width="600" height="420"></canvas>
+  </div>
+  <div class = "pieChart">
+    <canvas id="pie-chart" width="600" height="420"></canvas>
+  </div>
 </div>
+
 <!-- this is the chart from the main.js file -->
 
 <div class="sections">
@@ -49,6 +56,7 @@
       
     </div>
 
+
     <div class="vaccinationrates">
         <h2>Total Vaccinated</h2>
         <p id="totalVac"></p>
@@ -59,9 +67,7 @@
         <a href="https://comp426-2022-spring.github.io/a99-castor/frontend/externallinks.html">External Links</a>
     </div>
 
-    <div>
-      <canvas id="pie-chart" width="800" height="450"></canvas>
-    </div>
+    
 
 	<script src="main.js"></script>
 
