@@ -39,7 +39,7 @@ body {
 }
 
 /* daily cases section */
-.dailycases {
+.totalCases {
   float: left;
   width: 47%;
   height: 50%;
