@@ -33,5 +33,5 @@ getInformation = async (e) => {
     console.log(totalVaccinated);
 
     document.getElementById("totalCases").innerHTML = totalCases
-
+    document.getElementById("totalVac").innerHTML = totalVaccinated
 }
