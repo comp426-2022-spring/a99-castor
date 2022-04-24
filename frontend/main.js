@@ -29,9 +29,15 @@ getInformation = async (e) => {
 
     let totalCases = filteredInformation[1724].actuals.cases;
     let totalVaccinated = filteredInformation[1724].actuals.vaccinationsCompleted;
+    let totalDeaths = filteredInformation[1724].actuals.deaths;
+    let lastUpdateDate = filteredInformation[1724].lastUpdatedDate;
+
     console.log(totalCases);
     console.log(totalVaccinated);
 
+    let lastUpdateString = "Last Updated: " + lastUpdateDate
+    document.getElementById("lastUpdateDate").innerHTML = lastUpdateString
     document.getElementById("totalCases").innerHTML = totalCases
     document.getElementById("totalVac").innerHTML = totalVaccinated
+    document.getElementById("totalDeaths").innerHTML = totalDeaths
 }

@@ -20,8 +20,9 @@
 <body onload="getInformation()">
 
 <div class="header">
-  <h1>UNC COVID Dashboard</h1>
+  <h1>Orange County COVID Dashboard</h1>
   <h2>COMP 426 - Castor</h2>
+  <h3 id="lastUpdateDate"></h3>
 </div>
 
 <div class="loginbar">
@@ -33,16 +34,19 @@
     <div class="dailycases">
         <h2>Daily Covid Cases</h2>
         <p id="totalCases"></p>
+        
     </div>
     
-    <div class="weeklygraph">
-      <h2>Weekly Graph</h2>
-      <p>insert covid graph here</p>
+    <div class="totalDeaths">
+      <h2>Total Deaths</h2>
+      <p id = "totalDeaths"></p>
+      
     </div>
 
     <div class="vaccinationrates">
         <h2>Vaccination Rates</h2>
         <p id="totalVac"></p>
+      
     </div>
     
     <div class="externallinks">
