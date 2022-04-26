@@ -57,7 +57,7 @@ getInformation = async (e) => {
           legend: { display: false },
           title: {
             display: true,
-            text: '(tonamebetter) misc. ratios'
+            text: 'Stats At A Glance'
           }
         }
     });
@@ -78,7 +78,7 @@ getInformation = async (e) => {
         options: {
           title: {
             display: true,
-            text: 'todo 2'
+            text: 'Proportion Vaccinated'
           }
         }
     });
