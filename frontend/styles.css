@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family:  "Georgia", "Times New Roman", Serif;
 }
 
 /*MAIN PAGE*/
@@ -11,21 +12,22 @@ body {
 .header {
   background-color: rgb(84, 111, 158);
   padding: 20px;
+  font-size: large;
   text-align: center;
-  color: lightgrey;
+  color: rgb(248, 248, 248);
 }
 
 /* login bar general section */
 .loginbar {
   overflow: hidden;
-  background-color: #ddd;
+  background-color: rgb(72, 63, 63);
 }
 
 /* log in word positioning */
 .loginbar a {
   float: right;
-  color: black;
-  font-size: 20px;
+  color: rgb(248, 248, 248);
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   padding: 14px 16px;
@@ -45,31 +47,33 @@ body {
   height: 50%;
   padding: 10%;
   border-radius: 30px;
-  margin: 20px;
+  margin: 1em;
 
   color: black;
   background-color: rgb(109, 180, 190);
   text-align: center;
+  font-size: 1.5em;
   display:table;
 }
 
 /* weekly graph section */
 .totalDeaths {
     float: left;
-    width: 48%;
+    width: 47%;
     height: 50%;
     padding: 10%;
     border-radius: 30px;
-    margin: 20px;
+    margin: 1em;
 
     color: black;
     background-color: rgb(135, 160, 194);
     text-align: center;
+    font-size: 1.5em;
 }
 
 .barChart {
   float: left;
-  width: 42%;
+  width: 45%;
   height: 50%;
   padding: 5%;
   border-radius: 30px;
@@ -81,8 +85,8 @@ body {
 }
 
 .pieChart {
-  float: right;
-  width: 42%;
+  float: left;
+  width: 45%;
   height: 50%;
   padding: 5%;
   border-radius: 30px;
@@ -105,6 +109,7 @@ body {
     color: black;
     background-color: rgb(109, 180, 190);
     text-align: center;
+    font-size: 1.5em;
 }
 
 /* external links section */
@@ -138,12 +143,71 @@ body {
 }
 
 /* adjusting the columns based on screen size; try adjusting window to see this work, probably need to implement better way for mobile so it's less awkward */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .column {
      width: 100%;
      height: auto;
-     }
-  }     
+  }
+
+
+  .totalCases {
+    float: left;
+    width: 97%;
+    height: 50%;
+    padding: 10%;
+    border-radius: 30px;
+    margin: 20px;
+
+    color: black;
+    background-color: rgb(109, 180, 190);
+    text-align: center;
+    font-size: 1.5em;
+    display:table;
+  }
+  
+  /* weekly graph section */
+  .totalDeaths {
+    float: left;
+    width: 97%;
+    height: 50%;
+    padding: 10%;
+    border-radius: 30px;
+    margin: 20px;
+
+    color: black;
+    background-color: rgb(135, 160, 194);
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .barChart {
+    float: left;
+    width: 97%;
+    height: 50%;
+    padding: 5%;
+    border-radius: 30px;
+    margin: 20px;
+  
+    /*color: black;
+    background-color: rgb(135, 160, 194);
+    text-align: center;*/
+  }
+  
+  .pieChart {
+    float: left;
+    width: 97%;
+    height: 50%;
+    padding: 5%;
+    border-radius: 30px;
+    margin: 20px;
+  
+   /* color: black;
+    background-color: rgb(135, 160, 194);
+    text-align: center;*/
+  }
+
+
+}     
 
 /* clearing the floats */
 .sections:after {
