@@ -25,5 +25,10 @@
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "login",
+    "authentication"
+  ]
 }
