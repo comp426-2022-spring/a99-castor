@@ -44,10 +44,10 @@ getInformation = async (e) => {
      new Chart(document.getElementById("bar-chart"), {
         type: 'bar',
         data: {
-          labels: ["covid beds / all beds", "ICU Capacity", "Infection Rate", "Positivity Rate", "(maybe leave out) vactopop"],
+          labels: ["covid beds / all beds", "ICU Capacity", "Infection Rate", "Positivity Rate", "Pop Vaccinated"],
           datasets: [
             {
-              label: "todo ratios",
+              label: "Stats At A Glance",
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
               data: [bedsWithCovidPatientsRatio,ICUCapacityRatio,infectionRate,testPositiveRatio,vacToPopRatio]
             }
@@ -70,7 +70,7 @@ getInformation = async (e) => {
         data: {
           labels: ["Total Vaccinated", "Total Unvaccinated"],
           datasets: [{
-            label: "todo 1",
+            label: 'Proportion Vaccinated',
             backgroundColor: ["#3e95cd", "#8e5ea2"],
             data: [theVaccinated,theUnvaccinated]
           }]
