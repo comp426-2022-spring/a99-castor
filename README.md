@@ -12,12 +12,12 @@ The website can be accessed [here](https://comp426-2022-spring.github.io/a99-cas
 ## License and Dependency List
 
 License: ISC
->connect-mongo
->ejs
->express
->express-session
->mongoose
->nodemon
+- connect-mongo
+- ejs
+- express
+- express-session
+- mongoose
+- nodemon
 
 
 ## Run Instructions
