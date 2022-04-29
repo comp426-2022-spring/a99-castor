@@ -18,23 +18,23 @@
 > [Roles Document](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/teamroles.md)
 
 # Project Details
+> Creating a site with basic Orange County COVID Statistics.
 
 ## Things to Display
 - Information
 >Last time data was updated.
 >Links to relevant vaccination information.
+>Log in and signup availability
 
 -Numbers:
->Vaccination rates: students, faculty, and staff.
->Booster rates.
->Daily new cases: changes from previous data.
->Cumulative positive cases.
+>Total Covid Cases
+>Deaths
+>Vaccination Rates
 
 -Visuals:
->Weekly graphs to represent information.
+>Charts and graphs.
 
 ## Stretch Goals
 - NC Covid Dashboard
-- UNC vs NC Covid Rates
-- UNC vs US Covid Rates
+
 
