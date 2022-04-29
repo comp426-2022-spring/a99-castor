@@ -20,10 +20,10 @@
     "dev": "nodemon server.js"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "author": "foram sojitra",
   "license": "ISC",
   "bugs": {
-  },
+  }
 }
