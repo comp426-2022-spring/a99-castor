@@ -1,5 +1,7 @@
 {
   "name": "node.js-register-login-app",
+  "homepage": "https://github.com/comp426-2022-spring/a99-castor#readme",
+
   "version": "1.0.0",
   "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. :+1:",
   "main": "server.js",
@@ -9,7 +11,9 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mongoose": "^5.13.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+     "chart.js": "^3.7.1"
+
   },
   "scripts": {
     "start": "node server.js",
@@ -17,12 +21,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FSojitra/Node.js-Register-Login-App.git"
   },
   "author": "foram sojitra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FSojitra/Node.js-Register-Login-App/issues"
   },
-  "homepage": "https://github.com/FSojitra/Node.js-Register-Login-App#readme"
 }

@@ -20,34 +20,54 @@
 <body onload="getInformation()">
 
 <div class="header">
-  <h1>UNC COVID Dashboard</h1>
+  <h1>Orange County COVID Dashboard</h1>
   <h2>COMP 426 - Castor</h2>
+  <h3 id="lastUpdateDate"></h3>
 </div>
 
 <div class="loginbar">
   <a href="https://comp426-2022-spring.github.io/a99-castor/frontend/login.html">Log In</a>
   <a href="https://comp426-2022-spring.github.io/a99-castor/frontend/signup.html">Sign Up</a>
 </div>
+<!-- this is the chart from the main.js -->
+
+<div class = "section-chart">
+  <div class = "barChart">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <canvas id="bar-chart" width="600" height="420"></canvas>
+  </div>
+  <div class = "pieChart">
+    <canvas id="pie-chart" width="600" height="420"></canvas>
+  </div>
+</div>
+
+<!-- this is the chart from the main.js file -->
 
 <div class="sections">
-    <div class="dailycases">
-        <h2>Daily Covid Cases</h2>
+    <div class="totalCases">
+        <h2>Total Covid Cases</h2>
         <p id="totalCases"></p>
+        
     </div>
     
-    <div class="weeklygraph">
-      <h2>Weekly Graph</h2>
-      <p>insert covid graph here</p>
+    <div class="totalDeaths">
+      <h2>Total Deaths</h2>
+      <p id = "totalDeaths"></p>
+      
     </div>
 
+
     <div class="vaccinationrates">
-        <h2>Vaccination Rates</h2>
-        <p>display vaccination information here</p>
+        <h2>Total Vaccinated</h2>
+        <p id="totalVac"></p>
+      
     </div>
     
     <div class="externallinks">
         <a href="https://comp426-2022-spring.github.io/a99-castor/frontend/externallinks.html">External Links</a>
     </div>
+
+    
 
 	<script src="main.js"></script>
 
@@ -55,6 +75,7 @@
 </html>
 
 <!-- code for the table to insert later 
+  HEY I DONT THINK WE NEED THIS TBH
  <div class="weekCases">
     <h1>Cases(US) in last 7 days</h1>
     <table>
