@@ -27,7 +27,7 @@ License: ISC
 
 - [Planning Notes](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/planningnotes.md)
 - [Team Roles](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/teamroles.md)
-- [API Endpoint Documentation]((https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/endpoints.md))
+- [API Endpoint Documentation](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/endpoints.md)
 - [Castor Project Board](https://github.com/orgs/comp426-2022-spring/projects/28)
 
 ## Project Demo
