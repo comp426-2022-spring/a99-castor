@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 
-router.get('/', (req, res, next) => {
-	return res.render('index.ejs');
+router.get('/register', (req, res, next) => {
+	return res.render('register.ejs');
 });
 
 
-router.post('/', (req, res, next) => {
+router.post('/register', (req, res, next) => {
 	let personInfo = req.body;
 
 	if (!personInfo.email || !personInfo.username || !personInfo.password || !personInfo.passwordConf) {
