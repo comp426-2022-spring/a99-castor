@@ -23,6 +23,8 @@ License: ISC
 
 
 ## Run Instructions
+To start your local server, in your terminal, run `node server.js`. This will start the local server at localhost:3000
+After you are done, press control+C to terminate the local server.
 
 
 ## Documentation
