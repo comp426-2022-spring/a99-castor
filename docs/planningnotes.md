@@ -21,19 +21,18 @@
 > Creating a site with basic Orange County COVID Statistics.
 
 ## Things to Display
--Last time data was updated
--Links to relevant vaccination information
--Login and signup availability
--The Data
+- Last time data was updated
+- Links to relevant vaccination information
+- Login and signup availability
+- The Data
 
 ## Data
--Total Covid Cases
--Total Deaths
--Vaccination rates and proportions
--Test positivity rates
--Hospital and ICU capacity
-**Data Format**
-Pie chart for vaccination proportions, boxes for standard statistics, and bar chart for misc.
+- Total Covid Cases
+- Total Deaths
+- Vaccination rates and proportions
+- Test positivity rates
+- Hospital and ICU capacity
+- **Data Format**: Pie chart for vaccination proportions, boxes for standard statistics, and bar chart for misc.
 
 ## Stretch Goals
 - NC Covid Dashboard
