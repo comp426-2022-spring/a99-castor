@@ -28,13 +28,16 @@
 
 -Numbers:
 >Total Covid Cases
->Deaths
+>Total Deaths
 >Vaccination Rates
+>Testing positivity rate
+>Hospital and ICU capacity
 
 -Visuals:
->Charts and graphs.
+>Bar and Pie Chart representing various ratios, and vaccination proportions respectively
 
 ## Stretch Goals
 - NC Covid Dashboard
+- Display daily new infections per last week
 
 
