@@ -22,7 +22,7 @@ In charge of database specifications:
 
 In charge of the project design:
 1. Visual aspects of the project; dashboard design, website colors, display of information.
-2. Create mock ups of pages.
+2. Create mock ups of pages to pass to Front End Lead(Lam)
 3. Design different layouts for different devices; desktop vs. mobile.
 
 ## Documentation Lead - Cassidy Nguyen
