@@ -4,6 +4,8 @@
 
 COVID UNC is an interactive web application that allows users to view data relating to Covid trends at the University of North Carolina - Chapel Hil. The website includes weekly graphs, links to external sources, and data such as daily covid cases and vaccination rates on campus. Users will be able to interact with the website through buttons which change the data being shown (daily, weekly, and yearly trends). 
 
+Demo Video [here](https://www.youtube.com/watch?v=_lfmjp67l_I&t=1s).
+
 
 ## Installation Requirements and Instructions
 - This project is using node.js as the framework, if you do not have it on your laptop, please download it [here](https://nodejs.org/en/).
