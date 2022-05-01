@@ -26,7 +26,7 @@
 >Links to relevant vaccination information.
 >Log in and signup availability
 
--Numbers:
+## Numbers
 >Total Covid Cases
 >Total Deaths
 >Vaccination Rates
