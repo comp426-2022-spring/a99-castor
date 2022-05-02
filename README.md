@@ -22,7 +22,7 @@ After you are done, press control+C to terminate the local server.
 
 ## License and Dependency List
 
-License: ISC
+License: GPL 3.0
 - connect-mongo
 - ejs
 - express
