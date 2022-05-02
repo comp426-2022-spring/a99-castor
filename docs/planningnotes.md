@@ -9,10 +9,15 @@
 
 ## Documented Meeting Dates
 - Initial Meeting: Monday, March 28
+    - Decided project roles and chose idea. 
 - Second Meeting: Monday, April 11
+    - Set deliverables for next meeting within roles. 
 - Third Meeting: Tuesday, April 19
+    - Reviewed deliverables from long break and set new goals for next meeting.  
 - Fourth Meeting: Friday, April 22
+    - Reviewed deliverables from long break and set new goals for next meeting. 
 - Fifth Meeting: Sunday, April 24
+    - Final check in.  Assessed what needed to be done before final due date. 
 
 ## Roles
 > [Roles Document](https://github.com/comp426-2022-spring/a99-castor/blob/main/docs/teamroles.md)
